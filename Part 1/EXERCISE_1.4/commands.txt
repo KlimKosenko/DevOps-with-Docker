@@ -1,0 +1,3 @@
+docker run -it --rm -d --name task14 ubuntu sh -c "while true; do echo 'Input website:'; read website; echo 'Searching..'; sleep 1; curl http://$website; done"
+docker exec task14 sh -c "apt-get update && apt install -y curl"
+docker attach task14

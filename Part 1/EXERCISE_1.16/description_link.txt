@@ -1,0 +1,7 @@
+Creating an Azure web app for the container
+1. Go to the Azure portal homepage and click Create a resource. 
+2. Select Containers > Web App for Containers to create a new web app service instance.
+3. Docker tab. Select the image and tag(klymmm/go_web_app:latest) source from dockerHub.
+After deployment you can check web app:
+
+https://golang-web-app.azurewebsites.net/
