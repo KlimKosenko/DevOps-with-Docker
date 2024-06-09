@@ -1,0 +1,4 @@
+In my project located in the GSES3 folder, I created a Docker Compose file to run PHP and Nginx containers. 
+Additionally, I configured the Nginx server and created a Dockerfile for PHP.
+This application returns the current Bitcoin rate
+and allows users who subscribe via email to receive updates about changes in the rate.

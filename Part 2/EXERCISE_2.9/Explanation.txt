@@ -1,0 +1,4 @@
+I just changed the backend Dockerfile environment variable from ENV REQUEST_ORIGIN="http://localhost:5000" to 
+ENV REQUEST_ORIGIN="http://localhost", 
+which allows CORS settings for the Golang server to take requests 
+from my nginx server localhost instead of the frontend server localhost:5000.
