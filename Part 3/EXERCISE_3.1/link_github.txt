@@ -1,0 +1,4 @@
+repository:
+https://github.com/KlimKosenko/express-app/tree/main
+config:
+https://github.com/KlimKosenko/express-app/blob/main/.github/workflows/deploy.yml

@@ -1,0 +1,6 @@
+repository:
+https://github.com/KlimKosenko/express-app
+config:
+https://github.com/KlimKosenko/express-app/blob/main/.github/workflows/azure-webapps-node.yml
+deployed application:
+https://express-app-node18.azurewebsites.net/
